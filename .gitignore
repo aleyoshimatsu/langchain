@@ -222,8 +222,6 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-files/**/
-
 # Environments
 .env
 .venv
@@ -274,3 +272,5 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+/files/
