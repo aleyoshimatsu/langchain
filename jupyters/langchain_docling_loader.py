@@ -1,4 +1,6 @@
 from datetime import datetime, timedelta
+import json
+import yaml
 
 # from docling.chunking import HybridChunker
 from langchain_docling import DoclingLoader
@@ -86,11 +88,13 @@ FILE_PATH_ASSEMBLEIA_OCR = '../files/23A1772203-ASS04022025V01-000831063.pdf'
 FILE_PATH_TS = '../files/831141.pdf'
 FILE_PATH_TS_2 = '../files/24F1234491-TDS07062024V01-000675608.pdf'
 FILE_PATH_TS_CRA = '../files/797444.pdf'
-FILT_PATH_TS_3 = '../files/018759000101010.pdf'
+FILE_PATH_TS_3 = '../files/018759000101010.pdf'
+FILE_PATH_TS_4 = '../files/819915.pdf'
+FILE_PATH_TS_5 = '../files/CRA02400DL4-TDS17122024V01-000803501.pdf'
 
 FILE_PATH_ESCRITURA = '../files/676706.pdf'
 
-FILE_PATH = FILE_PATH_TS
+FILE_PATH = FILE_PATH_TS_5
 
 EMBED_MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
 
